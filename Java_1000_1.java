@@ -10,14 +10,14 @@ import java.util.Scanner; // 스캐너를 사용하기 위해
 
 public class Main { // Main 클래스
     public static void main(String[] args){ // main() 메소드
-        Scanner one=new Scanner(System.in);
-        int A, B;
+        Scanner one=new Scanner(System.in); // 스캐너 one 생성
+        int A, B; // 변수 선언
         
-        A=one.nextInt();
+        A=one.nextInt(); // 사용자로부터 정수 입력받기
         B=one.nextInt();
         
-        System.out.println(A+B);
+        System.out.println(A+B); // A+B 출력하기
          
-        one.close();
+        one.close(); // 스캐너 one 종료하기
     }
 }
