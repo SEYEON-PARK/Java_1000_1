@@ -6,10 +6,10 @@
 첫째 줄에 A+B를 출력한다.
 */
 
-import java.util.Scanner;
+import java.util.Scanner; // 스캐너를 사용하기 위해
 
-public class Main {
-    public static void main(String[] args){
+public class Main { // Main 클래스
+    public static void main(String[] args){ // main() 메소드
         Scanner one=new Scanner(System.in);
         int A, B;
         
