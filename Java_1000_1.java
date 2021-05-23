@@ -14,7 +14,7 @@ public class Main { // Main 클래스
         int A, B; // 변수 선언
         
         A=one.nextInt(); // 사용자로부터 정수 입력받기
-        B=one.nextInt();
+        B=one.nextInt(); // 사용자로부터 정수 입력받기
         
         System.out.println(A+B); // A+B 출력하기
          
